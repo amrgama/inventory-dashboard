@@ -1,7 +1,4 @@
 # Environment files
-.env
-.env.local
-.env.production
 
 # OS files
 .DS_Store
@@ -12,3 +9,5 @@ Thumbs.db
 .vscode/
 *.suo
 *.ntvs*
+config.bat
+node_modules
