@@ -1,16 +1,32 @@
 import { createTheme, type MantineColorsTuple } from '@mantine/core';
 
+// Deep Teal: #0D3131 (Primary)
+// Light Mint: #E6F9F6 (Highlight)
 const brandTeal: MantineColorsTuple = [
-  '#e6f4f1', // 0
-  '#cce9e3', // 1
-  '#99d3c7', // 2
-  '#66bdab', // 3
-  '#33a78f', // 4
-  '#1a957d', // 5
-  '#0d3131', // 6: PRIMARY COLOR
-  '#0a2929', // 7
-  '#082222', // 8
-  '#061b1b', // 9: darkest
+  '#E6F9F6',
+  '#cce9e3',
+  '#99d3c7',
+  '#66bdab',
+  '#33a78f',
+  '#1a957d',
+  '#0D3131',
+  '#0a2929',
+  '#082222',
+  '#061b1b',
+];
+
+// Cool Gray: #8898AA
+const coolGray: MantineColorsTuple = [
+  '#F8F9FA',
+  '#F1F3F5',
+  '#E9ECEF',
+  '#DEE2E6',
+  '#CED4DA',
+  '#ADB5BD',
+  '#8898AA', // 6: Cool Gray
+  '#495057',
+  '#343A40',
+  '#212529',
 ];
 
 const statusRed: MantineColorsTuple = [
@@ -42,9 +58,14 @@ const statusGreen: MantineColorsTuple = [
 export const theme = createTheme({
   colors: {
     'brand-teal': brandTeal,
+    'cool-gray': coolGray,
     'status-red': statusRed,
     'status-green': statusGreen,
   },
   primaryColor: 'brand-teal',
   primaryShade: 6,
+  white: '#FFFFFF', // Pure White
+  other: {
+    softWhite: '#F8F9FB',
+  },
 });
