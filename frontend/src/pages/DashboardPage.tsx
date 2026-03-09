@@ -9,6 +9,7 @@ const stats = [
 ];
 
 export const DashboardPage = () => {
+  console.log('stats', stats);
   return (
     <Stack gap="xl">
       <Title order={2} fw={700}>Dashboard Overview</Title>
