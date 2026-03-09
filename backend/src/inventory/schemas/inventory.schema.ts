@@ -18,6 +18,9 @@ export class InventoryItem {
   price: number;
 
   @Prop()
+  category?: string;
+
+  @Prop()
   description?: string;
 }
 

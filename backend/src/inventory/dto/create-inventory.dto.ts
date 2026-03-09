@@ -29,5 +29,9 @@ export class CreateInventoryDto {
 
   @IsString()
   @IsOptional()
+  category?: string;
+
+  @IsString()
+  @IsOptional()
   description?: string;
 }
