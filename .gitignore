@@ -1,11 +1,2 @@
-# Environment files
-.env
-.env.local
-.env.production
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Scripts
-backend/scripts/
+config.bat
+node_modules
